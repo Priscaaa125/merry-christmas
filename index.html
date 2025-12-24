@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Natal - Kartu Ucapan Interaktif</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎄</text></svg>">
+</head>
+<body>
+    <div class="container">
+        <!-- Pohon Natal Kiri -->
+        <div class="tree tree-left">
+            <div class="tree-star">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="tree-layer tree-layer-1"></div>
+            <div class="tree-layer tree-layer-2"></div>
+            <div class="tree-layer tree-layer-3"></div>
+            <div class="tree-trunk"></div>
+            <div class="tree-ornament ornament-1"></div>
+            <div class="tree-ornament ornament-2"></div>
+            <div class="tree-ornament ornament-3"></div>
+            <div class="tree-ornament ornament-4"></div>
+            <div class="tree-ornament ornament-5"></div>
+        </div>
+        
+        <!-- Pohon Natal Kanan -->
+        <div class="tree tree-right">
+            <div class="tree-star">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="tree-layer tree-layer-1"></div>
+            <div class="tree-layer tree-layer-2"></div>
+            <div class="tree-layer tree-layer-3"></div>
+            <div class="tree-trunk"></div>
+            <div class="tree-ornament ornament-1"></div>
+            <div class="tree-ornament ornament-2"></div>
+            <div class="tree-ornament ornament-3"></div>
+            <div class="tree-ornament ornament-4"></div>
+            <div class="tree-ornament ornament-5"></div>
+        </div>
+        
+        <!-- Konten Utama -->
+        <div class="main-content">
+            <h1 class="title">Selamat <span>Natal</span> 2024</h1>
+            <p class="subtitle">Klik tombol di bawah untuk membuka kartu ucapan Natal yang spesial untuk Anda dan keluarga.</p>
+            
+            <div class="button-container">
+                <button class="reveal-btn" id="revealBtn">
+                    <i class="fas fa-gift"></i> Buka Kartu Ucapan
+                </button>
+            </div>
+            
+            <div class="card-container" id="cardContainer">
+                <div class="card" id="card">
+                    <h2 class="card-title">Selamat Natal & Tahun Baru</h2>
+                    <p class="card-message">
+                        Di musim Natal yang penuh sukacita ini, semoga damai dan kebahagiaan selalu menyertai Anda dan keluarga.<br><br>
+                        Semoga Natal membawa kedamaian di hati, kebahagiaan di rumah, dan cinta yang melimpah dalam hidup Anda.<br><br>
+                        Mari kita rayakan kelahiran Yesus Kristus dengan penuh syukur dan harapan untuk tahun yang lebih baik.
+                    </p>
+                    <p class="card-signature">Dari kami dengan penuh kasih,<br>Keluarga Natal 2024</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Efek salju -->
+        <div class="snowflakes" id="snowflakes"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
